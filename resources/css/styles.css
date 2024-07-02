@@ -1,0 +1,77 @@
+
+html, body {
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    background-image: url("utah-5641320_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    background-image: url("clouds-6233856_1280.jpg");
+}
+
+nav {
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: rgb(255, 230, 200);
+}
+
+
+.content {
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*
+#grid-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#me {
+    width: 320px;
+    height: 426px;
+    grid-area: 1 / 2 / 3 / 3;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.grid-container {
+    display: inline-grind;
+    column-gap: 50px;
+    grid-row-start: 1;
+    grid-column: 1 / span 6;
+}
+
+.grid-item {
+    width: 60px;
+    height: 60px;
+}
